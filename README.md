@@ -20,7 +20,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+# instantiate a new recipe with its URL
+recipe = RecipeExtractor::Recipe.new 'http://tinyw.in/pg42'
+```
 
 ## Contributing
 
