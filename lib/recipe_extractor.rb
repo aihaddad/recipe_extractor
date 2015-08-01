@@ -1,5 +1,11 @@
-require "recipe_extractor/version"
+require 'recipe_extractor'
+require "metainspector"
+require "mida"
+require "nokogiri"
+require "pismo"
 
-module RecipeExtractor
-  # Your code goes here...
-end
+require "recipe_extractor/blank"
+require "recipe_extractor/constants"
+require "recipe_extractor/extractor"
+require "recipe_extractor/recipe"
+require "recipe_extractor/version"

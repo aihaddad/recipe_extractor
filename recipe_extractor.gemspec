@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = RecipeExtractor::VERSION
   spec.authors       = ["Ahmed Elhaddad"]
   spec.email         = ["aihaddad@outlook.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Extracts the most relevant information from food recipe links}
+  spec.description   = %q{RecipeExtractor aims to parse and extract food recipe meta information (e.g. title and description), as well as ingredients and directions from fairly well-written HTML5 pages & outputs them as a Ruby Hash.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,12 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "pry"
+  spec.add_development_dependency "awesome_print"
+
+  spec.add_runtime_dependency "metainspector"
+  spec.add_runtime_dependency "mida"
+  spec.add_runtime_dependency "nokogiri"
+  spec.add_runtime_dependency "pismo"
 end
